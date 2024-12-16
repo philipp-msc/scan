@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .user-panel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-info {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  .limits {
+    margin-right: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
